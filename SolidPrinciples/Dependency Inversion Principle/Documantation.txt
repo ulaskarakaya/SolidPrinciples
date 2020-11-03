@@ -1,0 +1,4 @@
+﻿
+Dependency Inversion Principle :
+
+	According to this rule, upper level classes, modules, functions should not be dependent on lower level classes. Changes made in lower classes should not affect upper classes. Higher-level classes should not depend on lower-level classes, both should be linked to abstract concepts.

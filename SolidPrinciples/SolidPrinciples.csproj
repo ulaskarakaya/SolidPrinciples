@@ -46,12 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Dependency Inversion Principle\Bad_Examples\EMail.cs" />
+    <Compile Include="Dependency Inversion Principle\Bad_Examples\Notification.cs" />
+    <Compile Include="Dependency Inversion Principle\Bad_Examples\SMS.cs" />
+    <Compile Include="Dependency Inversion Principle\Good_Examples\Abstraction\IMessage.cs" />
+    <Compile Include="Dependency Inversion Principle\Good_Examples\Concrete\EMail.cs" />
+    <Compile Include="Dependency Inversion Principle\Good_Examples\Concrete\Notification.cs" />
+    <Compile Include="Dependency Inversion Principle\Good_Examples\Concrete\SMS.cs" />
+    <Compile Include="Interface Segregation Principle\Bad_Examples\Abstraction\IUser.cs" />
+    <Compile Include="Interface Segregation Principle\Bad_Examples\Concrete\Admin.cs" />
+    <Compile Include="Interface Segregation Principle\Bad_Examples\Concrete\Member.cs" />
+    <Compile Include="Interface Segregation Principle\Good_Examples\Abstraction\IAdmin.cs" />
+    <Compile Include="Interface Segregation Principle\Good_Examples\Abstraction\IMember.cs" />
+    <Compile Include="Interface Segregation Principle\Good_Examples\Concrete\Admin.cs" />
+    <Compile Include="Interface Segregation Principle\Good_Examples\Concrete\Member.cs" />
+    <Compile Include="Liskov’s Substitution Principle\Bad_Examples\BadAreaCalculater.cs" />
+    <Compile Include="Liskov’s Substitution Principle\Bad_Examples\BadRetangle.cs" />
+    <Compile Include="Liskov’s Substitution Principle\Bad_Examples\BadSquare.cs" />
+    <Compile Include="Liskov’s Substitution Principle\Good_Examples\Abstraction\Shape.cs" />
+    <Compile Include="Liskov’s Substitution Principle\Good_Examples\Concrete\Retangle.cs" />
+    <Compile Include="Liskov’s Substitution Principle\Good_Examples\Concrete\Square.cs" />
     <Compile Include="Open Closed Principle\Bad_Example\AirlineTickets.cs" />
     <Compile Include="Open Closed Principle\Good_Example\Abstraction\AirlineTickets2.cs" />
     <Compile Include="Open Closed Principle\Good_Example\Concrete\BusinessClass.cs" />
@@ -85,13 +99,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dependency Inversion Principle\Documantation.txt" />
+    <Content Include="Interface Segregation Principle\Documantation.txt" />
     <Content Include="Liskov’s Substitution Principle\Documantation.txt" />
     <Content Include="Open Closed Principle\Documentation.txt" />
     <Content Include="Single Responsibility Principle\Documentation.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Liskov’s Substitution Principle\Bad_Examples\" />
-    <Folder Include="Liskov’s Substitution Principle\Good_Examples\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,4 @@
+﻿
+Interface Segregation Principle :
+
+	This rule states that no more capabilities should be added to an interface than necessary. It is the separation of functions that objects do not need from their Interfaces as much as possible.
