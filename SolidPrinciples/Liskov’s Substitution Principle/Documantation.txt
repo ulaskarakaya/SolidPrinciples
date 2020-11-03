@@ -1,0 +1,4 @@
+﻿
+Liskov’s Substitution Principle:
+
+	The purpose of this rule is a principle that aims to use all the properties of the object inherited by inheritance classes and then have their own properties. If the object does not use all the properties of the inherited object, unnecessary chunks of code are created and then blocks(if) are required to separate the inherited object from others, resulting in extremely inefficient software. For example, we have two types of employees. Employee_A can both call and mail customers, while employee_B can only send e-mail to customers. If the user types this code "Employee_B.CallCustomer", will get an error.

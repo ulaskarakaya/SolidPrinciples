@@ -1,0 +1,4 @@
+﻿
+Open Closed Principle:
+
+	The purpose of this rule is that the objects in our project are open to improvement, but closed to change. The objects you create can gain additional features over time and become open to expansion. This is inevitable in a normal software project. But the basic object must be kept closed to change.

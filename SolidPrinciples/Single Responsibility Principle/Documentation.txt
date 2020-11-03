@@ -1,0 +1,4 @@
+﻿
+Single Responsibility Principle:
+
+	The purpose of this rule is to get rid of the idea of ​​what will be affected during the application development stages and to enable us to make development. Each method or function does only the work assigned to it, and cannot affect more than one model at the same time. So a class should only have one job.
